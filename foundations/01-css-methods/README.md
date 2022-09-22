@@ -1,13 +1,3 @@
-<!-- * ONLY USE TYPE SELECTORS FOR EXTERNAL AND INTERNAL -->
-<!-- * USE KEYWORDS INSTEAD OF CODE VALUES FOR COLORS -->
-<!-- TODO: The properties you need to add to each element are:
-     *USE EXTERNAL
-     `div`: a red background, white text, a font size of 32px, center aligned, and bold 
-     *USE INTERNAL
-     `p`: a green background, white text, and a font size of 18px
-     *USE INLINE
-     `button`: an orange background and a font size of 18px -->
-
 # Methods for Adding CSS
 In this exercise, you're going to practice adding CSS to an HTML file using all three methods: external CSS, internal CSS, and inline CSS. You should only be using type selectors for this exercise when adding styles via the external and internal methods. You should also use keywords for colors (e.g. "blue") instead of using RGB or HEX values.
 
