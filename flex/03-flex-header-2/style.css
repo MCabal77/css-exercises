@@ -12,6 +12,15 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  gap: 16px;
+}
+
+.header > * {
+  gap: inherit;
 }
 
 .profile-image {
@@ -45,4 +54,15 @@ a {
 
 ul {
   list-style-type: none;
+
+  /* Setting margin and padding property to 0px removes the default values of list items */
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+}
+
+.profile-wrapper {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
 }
